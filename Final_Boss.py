@@ -27,6 +27,7 @@ while len(alunos) < LIMITE:
     registro["media"] = media
     registro["situacao"] = situacao
     registro["email"] = email
+    registro["nota1"] = nota1; registro["nota2"] = nota2; registro["nota3"] = nota3
     alunos.append(registro)
 
 print(f"Total de alunos: {len(alunos)}")
@@ -35,7 +36,8 @@ print(f"{'MATRICULA':<12} {'NOME':<25}"
         f"{'MEDIA':>8} {'SITUACAO':>15}") 
 for registro in alunos:
     print(f"{registro['matricula']:<12} {registro['nome']:<25}"
-     f"{registro['media']:>8.2f} {registro['situacao']:>15}")
+     f"{registro['media']:>8.2f} {registro['situacao']:>15}"
+      f"{registro['email']:>30} {registro['nota1']:>8.2f} {registro['nota2']:>8.2f} {registro['nota3']:>8.2f}")
 
 aprovados = 0; recuperacao = 0; reprovados = 0
 for registro in alunos:
