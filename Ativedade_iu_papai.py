@@ -54,7 +54,7 @@ class Loja:
         print("Status salvo com sucesso")
 
     def exibir_informacao(self):
-        print("Descriçao: ", self.descricao)
+        print("\nDescriçao: ", self.descricao)
         print("Reponsavel: ", self.responsavel)
         print("Custo: ", self.custo)
         print("Status: ", self.status)
@@ -82,6 +82,7 @@ try:
     produto.responsavel = "Eduardo"
     produto.custo = 78
     produto.status = "em andamento"
+    produto.exibir_informacao()
 except ValueError as erro:
     print("ERRO", erro)
 
@@ -91,5 +92,6 @@ try:
     produto.responsavel = "Lucas"
     produto.custo = 300
     produto.status = "aberto"
+    produto.exibir_informacao()
 except ValueError as erro:
     print("ERRO", erro)
