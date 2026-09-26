@@ -23,7 +23,7 @@ while len(alunos) < LIMITE:
     else:
         situacao = "Reprovado"
 
-    registro= {"nome": nome, "matricula": matricula}
+    registro = {"nome": nome, "matricula": matricula}
     registro["media"] = media
     registro["situacao"] = situacao
     registro["email"] = email

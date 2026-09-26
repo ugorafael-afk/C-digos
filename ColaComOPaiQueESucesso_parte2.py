@@ -1,5 +1,4 @@
 class Equipamento:
-   
     def __init__(self, nome, patrimonio):
         self.nome = nome
         self.patrimonio = patrimonio
