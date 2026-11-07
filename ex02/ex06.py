@@ -62,4 +62,8 @@ print(repr(pizza2))
 #    com # na frente de cada linha. Mesmo que seja um erro.
 # 2. Envie este arquivo para a pasta aula-02. O nome tem que ser ex08.py.
 # ============================================================
-# SAÍDA:
+# SAÍDA: Carrinho: 2 pizzas, total R$ 85.00
+#        85
+#        Pizza('Calabresa', 45)
+#        Pizza('Calabresa', 45)
+#        Pizza('Margherita', 40)
