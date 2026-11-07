@@ -5,7 +5,6 @@ class Equipamento:
             raise ValueError("O patrimônio é invalido")
         if not nome.strip():
             raise ValueError("O nome do equipamento é obrigatório")
-        
         self.nome = nome
         self.patrimonio = patrimonio
         self.setor = setor
